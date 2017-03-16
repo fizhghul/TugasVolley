@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hafiizh.appnews.MainActivity">
+    <item
+        android:id="@+id/sync"
+        android:icon="@mipmap/sync"
+        android:title="Category"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:id="@+id/about"
+        android:icon="@mipmap/about"
+        android:title="About"
+        app:showAsAction="always|collapseActionView" />
+</menu>
